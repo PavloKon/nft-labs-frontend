@@ -1,0 +1,199 @@
+.login-page {
+  padding: 0 1.5rem;
+  position: relative;
+  background: url('../../images/background-default.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+  max-width: 120rem;
+  margin: auto;
+
+  .login-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 178px;
+    max-width: 1010px;
+    width: 100%;
+    @media (max-width: 991px) {
+      flex-direction: column;
+      top: 40%;
+      padding: 24px;
+      padding-top: 100px;
+    }
+    .login {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+    .login-form {
+      width: 50%;
+      max-width: 505px;
+      display: flex;
+      flex-direction: column;
+      background-image: linear-gradient(#0a1544, #172874 50.31%, #07113e 100%);
+      padding-top: 4.5625rem;
+      padding-left: 64px;
+      padding-right: 59px;
+      align-items: center;
+
+      @media (max-width: 991px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        margin: auto;
+      }
+
+      @media (max-width: 991px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .login-title {
+        color: #ffffff;
+        text-align: center;
+        @media (max-width: 991px) {
+          font-size: 1.5rem;
+        }
+      }
+      .input-box {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding: 18px, 25px, 18px, 25px;
+        margin-top: 7%;
+        width: 100%;
+        max-width: 390px;
+        border-color: #2043f1;
+        border-style: solid;
+        border-width: 1px;
+
+        .icon {
+          position: absolute;
+          width: 17.7px;
+          height: 5.87px;
+          color: #ffffff;
+          top: 14.1px;
+          left: 15.1px;
+        }
+
+        .input-edit {
+          margin-left: 20px;
+          max-width: 390px;
+          width: 100%;
+          background-color: transparent;
+          color: #ffffff;
+          height: 60px;
+          border: none;
+          box-sizing: border-box;
+          margin-left: 3rem;
+          text-transform: none;
+
+          &:focus {
+            outline: none;
+          }
+          @media (max-width: 991px) {
+            width: 100%;
+          }
+        }
+      }
+
+      .remember {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1.3rem;
+        color: #ffffff;
+        font-size: 14px;
+        max-width: 390px;
+        width: 100%;
+        flex-wrap: wrap;
+
+        @media (max-width: 344px) {
+          justify-content: center;
+          gap: 1rem;
+        }
+        .remem {
+          display: flex;
+          align-items: center;
+          padding-top: 2px;
+          justify-content: center;
+
+          .remember_check {
+            height: 0.9375rem;
+            width: 0.9375rem;
+          }
+          .rememberMe {
+            margin-left: 1rem;
+          }
+        }
+
+        .forgot {
+          font-family: 'Barlow';
+          font-weight: 400;
+          font-size: 0.875rem;
+          line-height: 1.05rem;
+        }
+      }
+      .primaryBtn {
+        max-width: 396px;
+        width: 100%;
+        height: 60px;
+        background-color: #2043f1;
+        color: #ffffff;
+        margin-top: 5%;
+        font-size: 18px;
+      }
+
+      .signInGoogle {
+        max-width: 396px;
+        width: 100%;
+        height: 60px;
+        color: #ffffff;
+        background-color: transparent !important;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        border: 2px solid #2043f1 !important;
+
+        &:hover {
+          background-color: #2043f1 !important;
+        }
+
+        .google-text {
+          margin-left: 5px;
+        }
+        span {
+          font-family: 'Barlow';
+          font-weight: 600 !important;
+          font-size: 18px;
+          line-height: 22px;
+          text-align: center;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          color: white !important;
+        }
+        div {
+          background: transparent !important;
+        }
+      }
+      .signupLink {
+        margin-top: 8%;
+        color: #ffffff;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+      }
+    }
+  }
+}

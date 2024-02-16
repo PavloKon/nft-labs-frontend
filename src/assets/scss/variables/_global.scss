@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Revamped';
+  // src: local('Revamped'), url(./fonts/Rajdhani/Rajdhani-Regular.ttf) format('truetype');
+  src: local('Revamped'), url(../../fonts/Revamped.otf) format('truetype');
+}
+
+h1 {
+  font-family: 'Revamped';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 8.625rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Revamped';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.125rem;
+  line-height: 7.0625rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Revamped';
+  font-weight: 400;
+  font-size: 3.75rem;
+  line-height: 4.3rem;
+  margin: 0;
+
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Revamped';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: white;
+  line-height: 2.5625rem;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: 'Revamped';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.bb_14 {
+  color: #a4aac0;
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 2.55rem;
+}
+
+.bb_22 {
+  color: white;
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.bb_34 {
+  color: #a4aac0;
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 2.125rem;
+  line-height: 1.25rem;
+}
+
+.bb_16_thin {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bb_16_medium {
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bb_16_regular {
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: white;
+}
+
+.bb_16_semi_bold {
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: white;
+}
+
+.bb_18 {
+  color: white;
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.bb_18_light {
+  font-family: 'Barlow';
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.bb_18_regular {
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #5a5d6d;
+}
+
+.bb_18_medium {
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #a4aac0;
+}
+
+.bb-20_regular {
+  font-family: Barlow;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #a4aac0;
+}
+
+.bb-20_semi_bold {
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: white;
+}
+
+.bb_34 {
+  font-family: Barlow;
+  font-weight: 600;
+  font-size: 2.125rem;
+  line-height: 2.5625rem;
+  letter-spacing: 7%;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #2043f1;
+  border-color: #2043f1;
+
+  &:hover {
+    background-color: #2043f1;
+    border-color: #2043f1;
+  }
+}
+
+.btn-outline-primary {
+  border-color: #2043f1;
+
+  &:hover {
+    background-color: #2043f1 !important;
+    border-color: #2043f1;
+  }
+}
